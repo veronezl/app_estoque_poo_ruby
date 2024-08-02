@@ -1,0 +1,95 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/ruby,visualstudiocode,linux
+# Edite em https://www.toptal.com/developers/gitignore?templates=ruby,visualstudiocode,linux
+
+### Linux ###
+*~
+
+# arquivos temporários que podem ser criados se um processo ainda tiver um identificador aberto de um arquivo excluído
+.fuse_oculto*
+
+# Preferências do diretório KDE
+.diretório
+
+# Pasta de lixo do Linux que pode aparecer em qualquer partição ou disco
+.Lixo-*
+
+# Os arquivos .nfs são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs*
+
+### Rubi ###
+*.gema
+*.rbc
+/.config
+/cobertura/
+/ArquivosInstalados
+/pacote/
+/especificações/relatórios/
+/spec/exemplos.txt
+/teste/tmp/
+/teste/versão_tmp/
+/tmp/
+
+# Usado pela biblioteca dotenv para carregar variáveis ​​de ambiente.
+# .env
+
+# Ignorar arquivo de histórico de comando do Byebug.
+.byebug_história
+
+## Específico para RubyMotion:
+.dados*
+.repl_história
+construir/
+*.suporte de ponte
+construir-iPhoneOS/
+construir-iPhoneSimulator/
+
+## Específico para RubyMotion (uso de CocoaPods):
+#
+# Não recomendamos adicionar o diretório Pods ao seu .gitignore. No entanto
+# você deve julgar por si mesmo, os prós e contras são mencionados em:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# fornecedor/Pods/
+
+## Cache de documentação e arquivos gerados:
+/.jardoc/
+/_jardo/
+/doc/
+/rdoc/
+
+## Normalização do ambiente:
+/.pacote/
+/vendedor/pacote
+/lib/bundler/homem/
+
+# para uma biblioteca ou gem, você pode querer ignorar esses arquivos, pois o código é
+# destinado a ser executado em vários ambientes; caso contrário, faça o check-in:
+# Gemfile.lock
+# .ruby-versão
+# .conjunto de gemas rubi
+
+# a menos que suporte rvm < 1.11.0 ou faça algo extravagante, ignore isto:
+.rvmrc
+
+# Usado pelo RuboCop. Arquivos de configuração remotos extraídos da diretiva inherit_from.
+# .rubocop-https?--*
+
+### Código do VisualStudio ###
+.vscode/*
+!.vscode/configurações.json
+!.vscode/tarefas.json
+!.vscode/launch.json
+!.vscode/extensões.json
+!.vscode/*.trechos-de-código
+
+# Histórico local para o Visual Studio Code
+.história/
+
+# Extensões de código do Visual Studio criadas
+*.vsix
+
+### Patch do VisualStudioCode ###
+# Ignorar todo o histórico local de arquivos
+.história
+.ionídeo
+
+# Fim de https://www.toptal.com/developers/gitignore/api/ruby,visualstudiocode,linux
